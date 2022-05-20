@@ -1,0 +1,94 @@
+/* Write some CSS below */
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #7E846B;
+  font-size: 18px;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #2D2D2A;
+  margin:0;
+}
+
+p {
+	font-size: 16px;
+	line-height: 16px; 
+	margin-top:0;
+}
+
+a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.reminder {
+	background-color:#384232;
+	color: white;
+	padding: 16px 48px;
+	border-radius: 4px;
+	display: inline-block;
+	text-decoration: none;
+	margin-bottom: 16px;
+}
+
+.reminder:hover {
+  background-color: #A5AE9E;
+  transition: 1s;
+}
+
+.banner{
+	background-color:#7E846B;
+	color:#2D2D2A;
+	font-size: 28px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.container{
+	background-color: white;
+}
+
+.container2{
+	background-color: white;
+}
+
+.schedule{
+	background: #D0DDD7;
+}
+
+
+.card-white {
+	background: white;
+ 	box-shadow: 0 0 24px rgba(0,0,0,0.2);
+ 	border-radius: 4px;
+ 	width: 200px;
+ 	text-align: center;
+ 	padding: 24px;
+ 	margin: 8px;
+}
+
+.card-white img {
+	width:180px;
+	height:180px;
+	object-fit:cover;
+	border-radius:4px;
+}
+
+.card-white h3 {
+	margin-top:0;
+}
+
+.cards{
+	display:grid;
+	grid-template-columns: 280px 280px 280px; 
+}
+
+.Footer{
+	background-color:#7E846B;
+	color:#2D2D2A;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0;
+}
