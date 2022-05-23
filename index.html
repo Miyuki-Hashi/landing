@@ -5,8 +5,10 @@
   <title>FACILITY Booling in Web Development Sprint</title>
   <!-- Change these Google fonts with your own choice -->
   <link href="https://fonts.googleapis.com/css?family=Chivo:700|Overpass:400,700&display=swap" rel="stylesheet">
-
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="dist/devices.css">
+  <script src='https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.css' rel='stylesheet' />
 </head>
 <body>
   <!-- Banner section -->
@@ -44,9 +46,37 @@
   </div>
  </div>
 </div>
+  <div class="location">
+  <p> current location</p>
+<div id='map'></div>
+<script>
+	mapboxgl.accessToken = 'pk.eyJ1IjoibWl5aGFzaGkiLCJhIjoiY2wzaTNibTVxMG81ODNqdW1tNWp1dGxuayJ9.omtEYmg8UNdyGmzk97ep8Q';
+const map = new mapboxgl.Map({
+container: 'map',
+style: 'mapbox://styles/mapbox/streets-v11',
+center: [2.326709, 48.868155],
+zoom: 15
+});
+ 
+// Create a default Marker and add it to the map.
+const marker1 = new mapboxgl.Marker()
+.setLngLat([2.326709, 48.868155])
+.addTo(map);
+</script>
+  </div>
 </body>
   <!-- Footer section -->
   <div class="Footer">
   <p>Do not hesitate organizing any service for your client.</p>
   </div>
+  <div class="device device-iphone-x">
+  <div class="device-frame">
+    <img class="device-content" src="...">
+  </div>
+  <div class="device-stripe"></div>
+  <div class="device-header"></div>
+  <div class="device-sensors"></div>
+  <div class="device-btns"></div>
+  <div class="device-power"></div>
+</div>
 </html>

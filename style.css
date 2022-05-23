@@ -54,10 +54,14 @@ a {
 	background-color: white;
 }
 
+.container3{
+	background-color: white;
+	font-size: 10px;
+}
+
 .schedule{
 	background: #D0DDD7;
 }
-
 
 .card-white {
 	background: white;
@@ -66,7 +70,7 @@ a {
  	width: 200px;
  	text-align: center;
  	padding: 24px;
- 	margin: 8px;
+ 	margin: 16px;
 }
 
 .card-white img {
@@ -85,10 +89,20 @@ a {
 	grid-template-columns: 280px 280px 280px; 
 }
 
+#map{
+	width:820px;
+	height:300px;
+	box-shadow: 0 0 24px rgba(0,0,0,0.2);
+ 	border-radius: 4px;
+ 	margin: 16px;
+}
+
 .Footer{
 	background-color:#7E846B;
-	color:#2D2D2A;
+	color:white;
 	font-size: 18px;
 	font-weight: bold;
 	margin: 0;
 }
+
+
